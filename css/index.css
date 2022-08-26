@@ -11,19 +11,16 @@ body{
     
 }
 
-
 /* FOOTER */
 footer {
     color: white;
     text-align: center;
     background-color: rgb(27, 27, 26);
 }
-
 footer h2 {
     color: #ff510d;
     padding-bottom: 0.5em;
 }
-
 .about {
     width: 90%;
     margin: auto;
@@ -45,18 +42,15 @@ footer h2 {
     grid-template-columns: auto auto auto;
     grid-gap: 3em;
 }
-
 .download{
     display:flex;
     align-items: center;
 }
-
 .footer{
     width: 80%;
     margin:auto;
     border-top: 1px solid rgb(80, 80, 80) ;
 }
-
 .footer {
     display: grid;
     grid-template-columns: auto auto auto auto;
