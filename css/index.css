@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+
+/* FOOTER */
+footer {
+    color: white;
+    text-align: center;
+    background-color: rgb(27, 27, 26);
+}
+
+footer h2 {
+    color: #ff510d;
+}
+
+.about {
+    width: 90%;
+    margin: auto;
+    padding-top: 2em;
+}
+.about p {
+    width: 51%;
+    margin:auto;
+    padding-top: 1.5em;
+    padding-bottom: 2.5em;
+    font-size: 14px;
+}
+.download {
+    width: 50%;
+    margin: auto;
+    padding-top:1.5em;
+    padding-bottom:1.5em;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 3em;
+}
+
+.app {
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+.app h4 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+
+.footer{
+    width: 80%;
+    margin:auto;
+    border-top: 1px solid rgb(80, 80, 80) ;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 4.8em;
+    justify-content: left;
+    text-align: left;
+    padding-bottom: 2em;
+}
+.footer h2 {
+    padding-top: 2em;
+    padding-bottom: 1em;
+}
+.footer p{
+    padding-top: 0.5em;
+    font-size: 14px;
+}
+.footer p a {
+    text-decoration: none;
+    color: white;
+}
+.footer p a:hover {
+    text-decoration: underline;
+}
+.contact p{
+    font-weight: bold;
+}
+.contact a{
+    font-weight: 200;
+}
+.contact #hours{
+    font-weight: 200;
+}
+.copyright {
+    color: white;
+    background-color: #ff510d;
+    text-align: left;
+    padding-left: 10em;
+    padding: 0.5em 0.5em;
+    font-size: small;
+}
