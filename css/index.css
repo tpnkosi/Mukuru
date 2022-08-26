@@ -21,6 +21,7 @@ footer {
 
 footer h2 {
     color: #ff510d;
+    padding-bottom: 0.5em;
 }
 
 .about {
@@ -32,7 +33,7 @@ footer h2 {
     width: 51%;
     margin:auto;
     padding-top: 1.5em;
-    padding-bottom: 2.5em;
+    padding-bottom: 0.5em;
     font-size: 14px;
 }
 .download {
@@ -45,19 +46,10 @@ footer h2 {
     grid-gap: 3em;
 }
 
-.app {
-    background-color: black;
-    border: 1px solid white;
-    border-radius: 10px;
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
+.download{
+    display:flex;
+    align-items: center;
 }
-.app h4 {
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 100;
-}
-
 
 .footer{
     width: 80%;
