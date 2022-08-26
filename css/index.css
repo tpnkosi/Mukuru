@@ -3,14 +3,46 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 body{
     background-color: white;
     color: black;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    
+}
+main h2{
+    font-family: madera bold;
+    color: #373a36;
+    clear: both;
+    font-weight: 700;
+    text-align: center;
+    margin:1.5em;
+}
+main ul{
+    margin-left:2em;
+}
+main img{
+    object-fit: cover;
+    height:300px;
+    width:450;
+}
+.budget{
+    display:grid;
+    grid-template-columns: auto auto;
+    grid-gap: 4.8em;
+    justify-content: left;
+    text-align: left;
+    margin-left: 5em;
+    margin-right: 5em;
+}
+main p{
+    padding-bottom:0.5em;
+}
+.steps{
+    margin: 0px 20em 2em 20em;
 }
 
+.steps ol li{
+    padding-bottom: 0.5em;
+}
 /* FOOTER */
 footer {
     color: white;
