@@ -3,6 +3,61 @@
     padding: 0;
     box-sizing: border-box;
 }
+.heading {
+    width: 100%;
+    height: 500px;
+    background-color: rgb(180, 18, 18);
+}
+.heading {
+    background-image: url("https://www.mukuru.com/wp-content/uploads/2022/04/MDES5196-Mukuru-SA.jpg");
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.custom{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-bottom: 2em;
+    border-bottom: 1px solid white;
+    height: 90px;
+}
+#navigator{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-bottom: 1px solid white;
+    text-align: center;
+}
+#navigator a{
+    color: white;
+    text-decoration: none;
+    font-size: large;
+}
+#navigator a:hover{
+    color: white;
+    text-decoration: underline;
+    font-size: large;
+}
+#mukuru{
+    font-family: madera bold;
+    color: white;
+    margin-top:15vh;
+    padding-left: 5em;
+}
+#financial-education{
+    font-family: madera bold;
+    color: #ff510d;
+    padding-left: 5em;
+}
+.custom-logo {
+    position: absolute;
+    font-size: 5px;
+    width: 200px;
+    height: 40;
+    margin-top: 1em;
+    padding-right: 5em;
+    border-right: 1px solid white;
+}
 body{
     background-color: white;
     color: black;
