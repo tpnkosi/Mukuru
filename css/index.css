@@ -51,10 +51,12 @@ main img{
 main p{
     padding-bottom:0.5em;
 }
-.improve-credit-score, .financial-education, .steps{
+.how-to-borrow-and-save, .how-to-pay-bills, .improve-credit-score, .financial-education, .steps{
     margin: 0px 10em 2em 10em;
 }
-
+.how-to-pay-bills #tips-to-pay-off-debt #ordered-list li{
+    padding-bottom: 0.5em;
+}
 .steps ol li{
     padding-bottom: 0.5em;
 }
