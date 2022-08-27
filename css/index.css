@@ -24,6 +24,11 @@ main img{
     height:300px;
     width:450;
 }
+#borrowing src{
+    object-fit: cover;
+    height:300;
+    width:450;
+}
 .credit-score-image img{
     object-fit: cover;
     height:250px;
@@ -39,7 +44,7 @@ main img{
 .improve-credit-score a:hover{
     text-decoration: underline;
 }
-.budget, .credit-score-about{
+#borrowing, .budget, .credit-score-about{
     display:grid;
     grid-template-columns: auto auto;
     grid-gap: 4.8em;
@@ -53,6 +58,9 @@ main p{
 }
 .how-to-borrow-and-save, .how-to-pay-bills, .improve-credit-score, .financial-education, .steps{
     margin: 0px 10em 2em 10em;
+}
+.how-to-borrow-and-save #borrow{
+    padding-bottom:1em;
 }
 .how-to-pay-bills #tips-to-pay-off-debt #ordered-list li{
     padding-bottom: 0.5em;
